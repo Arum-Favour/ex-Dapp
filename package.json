@@ -351,8 +351,10 @@
     "yocto-queue": "^0.1.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "hardhat": "^2.22.15",
-    "mocha": "^10.8.2"
+    "mocha": "^10.8.2",
+    "vite": "^5.4.11"
   },
   "scripts": {
     "test": "mocha",
