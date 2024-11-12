@@ -358,7 +358,9 @@
   },
   "scripts": {
     "test": "mocha",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
